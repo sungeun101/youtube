@@ -1,11 +1,15 @@
+.container{
+  width: 50%;
+  padding:0.2em;
+}
+
 .video {
   display: flex;
   align-items: center;
   border: 1px solid lightgray;
-  margin-bottom: 0.4em;
   cursor: pointer;
   transition: transform 250ms ease-in;
-  width: 50%;
+  width: 100%;
 }
 
 .video:hover {
@@ -13,16 +17,16 @@
 }
 
 .thumbnail {
-  margin-right: 20px;
+  margin-right: 0.7em;
   width: 40%;
   height: 100%;
 }
 
 .title {
-  font-size: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  font-weight: 400;
 }
 
 .channel {
-  font-size: 18px;
+  font-size: 0.8em;
 }
